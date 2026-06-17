@@ -1,0 +1,83 @@
+{
+  "accuracy": 1.0,
+  "classification_report": {
+    "Anemia": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 125.0
+    },
+    "Diabetes": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 108.0
+    },
+    "Healthy": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 111.0
+    },
+    "Thalasse": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 102.0
+    },
+    "Thromboc": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 25.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 471.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 471.0
+    }
+  },
+  "classes": [
+    "Anemia",
+    "Diabetes",
+    "Healthy",
+    "Thalasse",
+    "Thromboc"
+  ],
+  "feature_importance": {
+    "Red Blood Cells": 1.8164157990352243,
+    "Platelets": 1.6599174903821592,
+    "ALT": 1.4008678918339825,
+    "Troponin": 1.3190118996435949,
+    "Hemoglobin": 1.2372957610446236,
+    "White Blood Cells": 1.1725030674503323,
+    "Mean Corpuscular Volume": 1.1587525991651013,
+    "Glucose": 1.143236860051373,
+    "LDL Cholesterol": 1.137074140327432,
+    "Heart Rate": 1.1167468780006655,
+    "C-reactive Protein": 1.1077725957041475,
+    "Mean Corpuscular Hemoglobin": 1.099832974937808,
+    "HbA1c": 1.0935999020320382,
+    "Cholesterol": 1.0728145069912371,
+    "Insulin": 0.8990723209026811,
+    "Triglycerides": 0.8923913156628689,
+    "BMI": 0.8571786346254509,
+    "Hematocrit": 0.8288430253237304,
+    "Systolic Blood Pressure": 0.7457107136317941,
+    "Diastolic Blood Pressure": 0.638926389030608,
+    "Mean Corpuscular Hemoglobin Concentration": 0.5564165983926169,
+    "AST": 0.4833702953223124,
+    "Creatinine": 0.42951683990728806,
+    "HDL Cholesterol": 0.2819730084573438
+  },
+  "n_train": 1880,
+  "n_test": 471
+}
